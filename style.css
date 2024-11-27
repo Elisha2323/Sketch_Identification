@@ -1,0 +1,43 @@
+body{
+    background-color:cornsilk;
+}
+
+h1{
+
+    color:light pink;
+    background-color: rgb(241, 203, 189);
+}
+
+#show_sketch{
+    float:right;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius:20px;
+    animation-name:example;
+    animation-duration:4s;
+margin-top:50px;
+animation-iteration-count:infinite;
+padding-left: 0;
+padding-right: 0;
+margin-left: auto;
+margin-right: auto;
+display: block;
+width: 800px;
+}
+
+@keyframes example{
+    from{box-shadow: 4px 2px 20px  rgb(108, 108, 180)}
+    to{box-shadow: 4px 2px 20px rgb(222, 119, 119);}
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+h1{
+    font-family: fantasy;
+    color: rgb(255, 255, 255);
+}
